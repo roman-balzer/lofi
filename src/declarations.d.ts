@@ -39,7 +39,3 @@ declare module '*black-magic.node' {
   const value: {};
   export = value;
 }
-
-declare module 'electron-transparency-mouse-fix';
-declare module 'electron-localshortcut';
-declare module 'react-electron-titlebar';

@@ -1,0 +1,58 @@
+#visible-ui {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(135deg, #1f1f1f 0%, #2d2d2d 100%);
+  position: relative;
+
+  &:hover {
+    .menu {
+      opacity: 1;
+    }
+
+    .welcome-pane {
+      filter: blur(0.5rem);
+    }
+
+    .cover {
+      filter: blur(0.125rem);
+      transform: scale(1.1);
+    }
+
+    .bar {
+      transition: 0.1s;
+      opacity: 0.25;
+    }
+
+    .controls {
+      transition: 0.1s;
+      opacity: 1;
+    }
+
+    .welcome-controls {
+      transition: 0.1s;
+      opacity: 1;
+    }
+
+    .menu .logo-typo {
+      background-position: left center;
+      color: #ef9671;
+      transition: background-position 2000ms ease-out;
+    }
+  }
+}
+
+.top {
+  top: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.left {
+  left: 0;
+}

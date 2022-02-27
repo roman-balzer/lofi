@@ -1,0 +1,37 @@
+.bar {
+  position: absolute;
+  opacity: 0;
+  z-index: 2;
+}
+
+.horizontal {
+  height: 1px;
+  bottom: 0;
+}
+
+.vertical {
+  height: 100%;
+  bottom: 1px;
+  width: 1px;
+  position: absolute;
+}
+
+.volume-number,
+.volume-number-show {
+  font-size: 60%;
+  font-weight: bold;
+  border-radius: 100%;
+  padding: 0.4em;
+  margin: 0.25em;
+  color: #6affb3bf;
+  background-color: #00000040;
+  opacity: 0%;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.volume-number-show {
+  opacity: 100%;
+}

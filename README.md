@@ -5,7 +5,7 @@
 <h1 align="center"><strong>Lofi: a tiny Spotify player</strong></h1>
 
 <p align="center">
-  <a target="_blank" href="https://www.lofi.rocks">Website</a> • <a target="_blank" href="https://www.lofi.rocks/help">FAQ</a> 
+  <a target="_blank" href="https://www.lofi.rocks">Website</a> • <a target="_blank" href="https://www.lofi.rocks/help">FAQ</a> • <a target="_blank" href="https://discord.gg/YuH9UJk">Discord</a>
 </p>
 
 <table width="100%">

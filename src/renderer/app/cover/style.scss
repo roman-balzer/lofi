@@ -1,0 +1,17 @@
+.cover {
+  background-size: cover;
+  transition: 0.2s;
+  display: flex;
+}
+
+.cover.pause {
+  transition: 0.1s;
+  filter: blur(2px) grayscale(50%);
+  transform: scale(1.05);
+}
+
+.transparent {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+}

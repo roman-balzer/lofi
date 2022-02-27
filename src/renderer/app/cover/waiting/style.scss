@@ -1,0 +1,22 @@
+.waiting {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: calc(100%);
+  height: calc(100%);
+}
+
+.waiting p {
+  margin: auto;
+  padding: 1em;
+  color: #84bd00;
+  font-size: 300%;
+  opacity: 0.5;
+  animation: fader 1s infinite alternate;
+}
+
+@keyframes fader {
+  from {
+    opacity: 0;
+  }
+}
